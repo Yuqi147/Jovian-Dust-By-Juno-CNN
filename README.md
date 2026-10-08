@@ -7,14 +7,20 @@ This repository provides code for analyzing Jovian dust measurements using the c
 - Training, validation, and prediction scripts
 
 ## Citation
+
 If you use this code, please cite:
-@article{zhang2026Jdust,
-  title={Three-Dimensional Dust Distribution in the Jovian System from Juno/Waves Observations: Insights into the Halo Ring and Magnetospheric Dust},
-  author={Zhang, Yuqi and Ye, Shengyi and Li, Yuting and Li, Wenyue and Wang, Guangzhou and Duanmu, Xinya},
-  journal={arXiv preprint arXiv:2607.19304},
-  year={2026}
+
+```bibtex
+@article{zhang2026jdust,
+  title   = {Three-Dimensional Dust Distribution in the Jovian System from Juno/Waves Observations: Insights into the Halo Ring and Magnetospheric Dust},
+  author  = {Zhang, Yuqi and Ye, Shengyi and Li, Yuting and Li, Wenyue and Wang, Guangzhou and Duanmu, Xinya},
+  journal = {arXiv preprint arXiv:2607.19304},
+  year    = {2026},
+  note    = {Under submission to The Astrophysical Journal}
 }
-The associated manuscript is currently under submission to the Astrophysical Journal *Astrophysical Journal (ApJ)*.
+```
+
+The manuscript is currently under submission to the *Astrophysical Journal (ApJ)*.
 
 ## License
 
