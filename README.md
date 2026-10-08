@@ -1,4 +1,4 @@
-#Jovian Dust Detected by Juno with CNN
+# Jovian Dust Detected by Juno with CNN
 
 This repository provides code for analyzing Jovian dust measurements using the convolutional neural network (CNN) method from Kvammen et al. (2023). It includes data preprocessing, model training, and inference for detecting dust impacts in Juno Waves data.
 
