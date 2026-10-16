@@ -8,7 +8,7 @@ tables ready for the CNN classifier (see the repository root `README.md`).
 
 | Script | Purpose |
 |---|---|
-| `test_download09_05.py` | Crawls the PDS archive listing and downloads in-range Juno/Waves burst `.dat`/`.lbl` files. Configure the year/DOY window and local output root at the top of the file. |
+| `download_dat_lbl.py` | Crawls the PDS archive listing and downloads in-range Juno/Waves burst `.dat`/`.lbl` files. Configure the year/DOY window and local output root at the top of the file. |
 | `scan_file_dir.py` | Scans a local product directory, groups `.LBL`/`.DAT` pairs by base name, and classifies products (E/B field, REC/BIN layout, NBS level). |
 | `dat_lbl_file_reader.py` | `PDS3TableReader`: parses PDS3 labels, reads fixed-length binary `.DAT` records, splits LFR_LO/LFR_HI/HFR channels, and exports CSV/TXT/metadata tables. |
 | `main_process.py` | Entry point: scans the local PDS3 directory, selects E-field products, and exports LFR_LO metadata CSVs. |
@@ -30,7 +30,7 @@ download  ->  scan_file_dir  ->  dat_lbl_file_reader  ->  main_process  ->  inte
 
 ```bash
 # 1) Download burst waveform products (edit the config block first)
-python test_download09_05.py
+python download_dat_lbl.py
 
 # 2) Convert .dat/.lbl products to CSV (edit parent_dir_scan first)
 python main_process.py
